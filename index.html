@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>        
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>        
+        </ul>
+
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+
+    </nav> 
+  
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>            
+        </div>
+    </header>
+
+    <!-- ======== Events ==========-->
+    
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magni possimus consequuntur magnam, maiores cupiditate.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab magni possimus consequuntur magnam, maiores cupiditate.</p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore officiis, nesciunt, deserunt reiciendis consectetur aspernatur provident eligendi impedit repellendus quam sit earum aliquam expedita fugiat.</P>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Tour And Destination</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloribus ipsum debitis delectus facilis, fugit tempora esse, animi, iusto autem reiciendis quis beatae! Sunt facere assumenda doloremque fuga, voluptas porro.</p>
+                <a href="#" class="ctn">Learn More</a>                
+            </div>
+       
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png" alt="">
+                    <img src="./img/img4.png" alt="">
+                    <img src="./img/img5.png" alt="">    
+                    <img src="./img/img6.png" alt="">                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>iTWINE Technologies Pvt Ltd, 8, Andree Rd, Akkithimana Halli, Bheemanna Garden, Shanti Nagar, Bengaluru, Karnataka 560027</p>
+        <p>© published Work , 2000 iTWINE Technologies </p>            
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=> {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
